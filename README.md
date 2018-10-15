@@ -21,6 +21,11 @@ After this, you need to install the python bindings we use for fetching IMDb dat
 ```
 $ pip install imdbpy
 ```
+Insatll mysql-connector to let python interact with database.
+
+```
+$ pip install mysql-connector-python
+```
 
 Then, input correct values into `config.py` for database host, user name, password,
 database name, email host, email port, sender email and password.
